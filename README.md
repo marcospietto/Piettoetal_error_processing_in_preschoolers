@@ -23,7 +23,7 @@ Inside the file "Piettoetal_error_processing_in_preschoolers.m," you can find tw
 |EEG.single_error_tertiles.THETA | 128x58x3      | 178176  | double | Time-frequency power in Theta band. Time x Subjects x Conditions. Condition #1 = single_error 1st tertile-locked activity; Condition #2 = single_error 2nd tertile-locked activity; Condition #3 = single_error 3rd tertile-locked activity |
 |EEG.single_error_tertiles.SPECTRA | 128x45x30x3      | 5345280  | double | Time-frequency power in the spectrum range 1-30 Hz. Time x Subjects x Hz x Conditions. Condition #1 = single_error 1st tertile-locked activity; Condition #2 = single_error 2nd tertile-locked activity; Condition #3 = single_error 3rd tertile-locked activity |
 |EEG.single_error_tertiles.ID_SUBJECT   | 1x58      | 6612  | cell |  Subject's ID |
-|EEG.TIMES   | 1x128      | 1024  | double |  time in ms |
+|EEG.TIMES   | 1x128      | 1024  | double |  Times in ms |
 |BEHAVIOR.DATA   | 103x9      | 7416  | double |  Subject x Behavioral measures |
 |BEHAVIOR.NAMES_VARIABLES   | 1x9      | 1286  | cell |  Names of behavioral measures of columns in BEHAVIOR.DATA |
 |BEHAVIOR.ID_SUBJECT   |  1x103    | 11742  | cell |  Subject's ID |
